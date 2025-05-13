@@ -1,4 +1,4 @@
-return {
+local plugin = {
   {
     'kevinhwang91/nvim-ufo',
     event = 'BufRead',
@@ -34,3 +34,4 @@ return {
     end,
   },
 }
+return {}
